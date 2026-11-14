@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { supabase } from './utils/supabase'
+import useTable from './useTable.js'
 
 
 function Header() {
@@ -6,10 +8,14 @@ function Header() {
 }
 
 function App() {
+  const { data, error } = useTable("dinosaurs")
+
+
   return (
     <div>
+      <h1>Dinosaurs</h1>
       <Header />
-     
+     <p>{error}</p>
     </div>
   )
 } 
