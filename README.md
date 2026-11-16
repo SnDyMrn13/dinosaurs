@@ -3,7 +3,7 @@
 
 ## Wireframe
 
-
+   ![wireframe](./dinosaur-wireframe.png)
 
 ## Target users
    Children who want to learn about dinosaurs.
@@ -15,8 +15,9 @@
  
 ## Sample table
    id | name | diet | dino_type | length_in_meters | fossil-found |
+   | --- | --- | --- | --- | --- | --- |
 | 1 | gorgosaurus | carnivore | large theropod | 9 | alberta |
-
+| | | | | | |
 
 ## accountability partners
   miaya-dennis
