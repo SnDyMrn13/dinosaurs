@@ -19,6 +19,10 @@
 | 1 | gorgosaurus | carnivore | large theropod | 9 | alberta |
 | | | | | | |
 
+## Team
+
+pod's doc: https://docs.google.com/document/d/1pAHUoA0O_Pil3cmCH792l70D3B6yPkERFIBjfPNTCwY/edit?tab=t.0
+
 ## accountability partners
   miaya-dennis
   edwardcoded77
