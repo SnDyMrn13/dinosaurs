@@ -42,7 +42,7 @@ function App() {
     return <p>loading...</p>
   }
 
-  const shown = data.filter((data) => data.name && data.diet.includes(diet))
+  const shown = data.filter((data) => data.name && data.diet.includes(diet) && data.length_in_meters && data.fossil_found)
 
   return (
     <div className="container">
