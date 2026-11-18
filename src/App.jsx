@@ -10,6 +10,16 @@ import Footer from './Footer.jsx'
 
 
 function App() {
+
+  const highlightImage = () => {
+    const tip = document.getElementById("tip")
+    tip.style.transform = "scale(1.5)"
+  }
+  const clearHighlight = () => {
+    const tip = document.getElementById("tip")
+    tip.style.transform = ""
+  }
+
   const { data, loading, error } = useTable("Dinosaurs")
   
  
@@ -39,6 +49,14 @@ function App() {
 
      
       <Header />
+         <div className="card">
+          <p>Move mouse over image.</p>
+          
+           <p id="tip" onMouseEnter={highlightImage} onMouseLeave={clearHighlight}>
+            <Hero/>
+           </p>
+          
+         </div>
      
       
       <h2>What to feed a hungry Dinosaur!!!</h2>
