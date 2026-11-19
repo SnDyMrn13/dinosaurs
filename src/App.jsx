@@ -9,6 +9,7 @@ import Footer from './Footer.jsx'
 
 
 
+
 function App() {
 
   const highlightImage = () => {
