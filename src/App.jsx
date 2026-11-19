@@ -51,7 +51,7 @@ function App() {
      
       <Header />
          <div className="card">
-          <p>Move mouse over image.</p>
+          <p><strong>Move mouse over image.</strong></p>
           
            <p id="tip" onMouseEnter={highlightImage} onMouseLeave={clearHighlight}>
             <Hero/>
@@ -60,7 +60,7 @@ function App() {
          </div>
      
       
-      <h2>What to feed a hungry Dinosaur!!!</h2>
+      <h2 className="feed">What to feed a hungry Dinosaur!!!</h2>
 
       <button onClick={showCarnivores}>The Meat Eaters!</button>&nbsp;
       <button onClick={showHerbivores}>The Veggie Eaters!</button>&nbsp;
