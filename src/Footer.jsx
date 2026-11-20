@@ -1,7 +1,7 @@
 
 function Footer(){
     let year = new Date().getFullYear()
-    return <p>&copy; {year} Cindy Hulitsky</p>
+    return <p><strong>&copy; {year} Cindy Hulitsky</strong></p>
 }
 
 export default Footer

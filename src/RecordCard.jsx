@@ -2,10 +2,10 @@
 function RecordCard({ data }){
     return (
         <article>
-            <h2>{data.name}</h2>
-            <p>{data.diet} </p>
-            <p>{data.length_in_meters} meters in length</p>
-            <p>lived in {data.fossil_found}</p>
+            <h2 className="head2">{data.name}</h2>
+            <p><strong>{data.diet}</strong> </p>
+            <p><strong>{data.length_in_meters}</strong> meters in length</p>
+            <p>lived in <strong>{data.fossil_found}</strong></p>
         </article>
     )
 }
