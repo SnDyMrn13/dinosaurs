@@ -72,7 +72,7 @@ function App() {
       <button onClick={showAll}>All of Them!</button>
 
       {shown.map((data) => <RecordCard key={data.id} data={data} />)}  
-
+      <p>T-Rex picture courtesy of: Robert Cavlovic c/o Unsplash, CC0-NC</p>
      <p>{error}</p>
      <Footer/>
     </div>
